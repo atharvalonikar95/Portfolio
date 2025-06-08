@@ -1,5 +1,6 @@
 import SectionHeading from '@/components/helper/SectionHeading'
 import { AboutInfo } from '@/Data/data'
+import Image from 'next/image'
 import React from 'react'
 import { FaCheck } from 'react-icons/fa'
 
@@ -31,7 +32,51 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='border-0 border-amber-50'>
+            <div className=' grid grid-cols-2 items-center text-center gap-16  lg:mx-auto border-0 border-amber-50'>
+                <div>
+                    <Image
+                        src={'/images/customer.png'} 
+                        alt='img'
+                        width={80}
+                        height={80}
+                        className='mx-auto'
+                    />
+                    <p className='mt-3 font-bold text-xl  text-white' >0</p>
+                    <p className='text-base sm:text-lg text-gray-400 '>Satisfied customers</p>
+                </div>
+                <div>
+                    <Image
+                        src={'/images/experience.png'} 
+                        alt='img'
+                        width={80}
+                        height={80}
+                        className='mx-auto'
+                    />
+                    <p className='mt-3 font-bold text-xl  text-white' >{AboutInfo.experience}</p>
+                    <p className='text-base sm:text-lg text-gray-400 '>Year Experience</p>
+                </div>
+                <div>
+                    <Image
+                        src={'/images/completed.png'} 
+                        alt='img'
+                        width={80}
+                        height={80}
+                        className='mx-auto'
+                    />
+                    <p className='mt-3 font-bold text-xl  text-white' >{AboutInfo.project}</p>
+                    <p className='text-base sm:text-lg text-gray-400 '>projects</p>
+                </div>
+                <div>
+                    <Image
+                        src={'/images/rocket.png'} 
+                        alt='img'
+                        width={80}
+                        height={80}
+                        className='mx-auto'
+                    />
+                    <p className='mt-3 font-bold text-xl  text-white' >{AboutInfo.website}</p>
+                    <p className='text-base sm:text-lg text-gray-400 '>Websites</p>
+                </div>
 
             </div>
        </div>
