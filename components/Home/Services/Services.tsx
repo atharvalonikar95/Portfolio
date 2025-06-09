@@ -1,6 +1,7 @@
 import SectionHeading from '@/components/helper/SectionHeading'
 import { servicesData } from '@/Data/data'
 import React from 'react'
+import ServiceCard from './ServiceCard'
 
 const Services = () => {
   return (
@@ -11,7 +12,7 @@ const Services = () => {
             {servicesData.map((service)=>{
                 return(
                     <div key={service.id}>
-                        
+                      <ServiceCard service={service} />
                     </div>
                 )
             })}
