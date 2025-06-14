@@ -25,7 +25,7 @@ const ReviewCard = ({review}:props) => {
             <span>{review.rating}/5</span>
             <FaStar className='text-yellow-300' /> 
         </div>
-        <div className='bg-gray-100' >
+        <div className='bg-gray-100 ' >
             <div className='p-6 flex items-center space-x-6 ' >
                 <div>
                     <Image src={review.image} alt='img' width={50} height={50} className='rounded-[50%]' />
