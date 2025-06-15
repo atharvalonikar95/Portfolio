@@ -6,7 +6,7 @@ import Project from '../Project/Project'
 import Skills from './Skills/Skills'
 import Reviews from './Reviews/Reviews'
 import Blog from './Blog/Blog'
-import Contact from '../Contact/Contact'
+import Contact from './About/Contact/Contact'
 
 const Home = () => {
   return (

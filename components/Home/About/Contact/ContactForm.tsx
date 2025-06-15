@@ -23,14 +23,14 @@ const ContactForm = () => {
 
             </div>
 
-            <div className='mt-5 flex flex-col md:flex-row items-center justify-between gap-4'>
+            <div className='mt-5 flex flex-col md:flex-row items-center justify-between gap-4  '>
                 <input type="email" placeholder='Email Address' 
                 className='flex-1 bg-black text-white placeholder:text-gray-600 px-6 py-3 rounded-md 
                 border-[1.5px] border-gray-200 border-opacity-15 outline-none w-full '/>
 
                 <input type="text" placeholder='Phone number' 
                 className='flex-1 bg-black text-white placeholder:text-gray-600 px-6 py-3 rounded-md 
-                border-[1.5px] border-gray-200 border-opacity-15 outline-none w-full '/>
+                border-[1.5px] border-gray-200 border-opacity-15 outline-none w-full  '/>
 
             </div>
 
@@ -59,7 +59,6 @@ const ContactForm = () => {
                 <button className='px-8 py-3.5 bg-[#7947df] text-white  hover:bg-[#5c2fb7]
                 rounded-full'>Send message</button>
             </div>
-
         </form>
 
     </div>
