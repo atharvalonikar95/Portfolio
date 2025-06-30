@@ -20,8 +20,8 @@ const MobileNav = ({showNav,NavHandler}:props) => {
         <div className={`text-white fixed ${navOpen} transform transition-all duration-500 delay-100 justify-center flex flex-col h-full w-[80%] sm:w-[60%]
          bg-[#092b47fc] space-x-6 z-[10000] space-y-2 `}>
                                   {navLinks.map((navlink)=>{
-                                      return<Link key={navlink.id} href={navlink.label} > 
-                                          <p className='nav__links text-[20px] ml-12 border-b-[1.5px] sm:text-[30px]  '>
+                                      return<Link key={navlink.id}  href={`#${navlink.label.toLowerCase()}`} > 
+                                          <p className='nav__links text-[20px] ml-12 border-b-[1.5px] sm:text-[30px] uppercase  '>
                                               {navlink.label}
                                           </p> 
                                       </Link>

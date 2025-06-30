@@ -21,8 +21,8 @@ const Navbar = ({NavHandler} : props) => {
                 <div className='flex items-center space-x-10 text-white '>
                     <div className='hidden lg:flex items-center space-x-8  '>
                         {navLinks.map((navlink)=>{
-                            return<Link key={navlink.id} href={navlink.label} > 
-                                <p className='nav__links'>
+                            return<Link key={navlink.id} href={`#${navlink.label.toLowerCase()}`} > 
+                                <p className='nav__links uppercase'>
                                     {navlink.label}
                                 </p> 
                             </Link>
