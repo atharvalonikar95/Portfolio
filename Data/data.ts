@@ -1,8 +1,8 @@
 export const BaseInfo ={
     name:"Atharva",
     position:"Full Stack Web Developer",
-    description:"awzsxdcfuvgibhonjmklf; eknsbcgghwsedrtfyguhijokplzsdxcf jghbjklmaewsrdtfjyguhbjnkm;",
-    profilepic:"/images/pic.png"
+    description:" Proficient in developing responsive web applications and committed to writing clean, efficient, and scalable code.",
+    profilepic:"/images/my pic.png"
 
 };
 
@@ -240,7 +240,7 @@ export const blogs = [
 ];
 
 export const contactData = {
-  phone: "+88(012345 789)",
-  email: "example@gmail.com",
-  address: "Dhaka , Bangladesh",
+  phone: "+91 84849411033",
+  email: "atharvalonikar95@gmail.com",
+  address: "Bengluru , India",
 };

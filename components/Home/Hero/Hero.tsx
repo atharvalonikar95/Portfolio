@@ -1,3 +1,4 @@
+"use client";
 import { BaseInfo } from '@/Data/data'
 import Image from 'next/image'
 
@@ -5,6 +6,15 @@ import React from 'react'
 import { FaDownload } from 'react-icons/fa'
 
 const Hero = () => {
+
+  const handleResumeDownload=()=>{
+    const link = document.createElement("a");
+    link.href = "/Atharva_resume.pdf";
+    link.download = "Atharva_resume.pdf"; 
+    link.click();
+  }
+
+
   return (
     <div className='w-full pt-[4vh]  md:pt-[12vh]  h-[60vh] lg:h-screen bg-[#0f0715] overflow-hidden relative '>
         <div className='flex lg:justify-center justify-end flex-col w-4/5 lg:h-full h-[80%]  mx-auto border-0  border-white '>
@@ -23,7 +33,9 @@ const Hero = () => {
               </p>
               <button className='md:px-8 md:py-2.5 py-1.5 px-6 font-semibold text-sm md:text-lg
               transition-all duration-200 bg-blue-700 flex items-center space-x-2 hover:bg-blue-900
-              rounded-lg mt-8 text-white'>
+              rounded-lg mt-8 text-white'
+              onClick={handleResumeDownload}
+              >
                 <span> Download CV</span>
                 <FaDownload/>
               </button>
