@@ -16,7 +16,7 @@ const Navbar = ({NavHandler} : props) => {
         <div className=' fixed h-[12vh] z-[10]  w-full   '>
 
             <div className=' flex items-center h-full w-[95%]  justify-between'>
-                <p className=' text-xl text-white ml-[1.5rem]'>Atharva's Devfolio</p>
+                <p className=' text-xl text-white ml-[1.5rem]'>{`Atharva's Devfolio`}</p>
     {/*Nav-links*/}
                 <div className='flex items-center space-x-10 text-white '>
                     <div className='hidden lg:flex items-center space-x-8  '>
