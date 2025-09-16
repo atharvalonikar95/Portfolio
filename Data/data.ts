@@ -37,38 +37,38 @@ export const servicesData = [
       "Seamless integration for smooth data sharing and functionality.",
     icon: "/images/s3.png",
   },
-  // {
-  //   id: 4,
-  //   title: "User Interfaces",
-  //   description:
-  //     "Engaging, responsive front-end designs for better user experiences.",
-  //   icon: "/images/s4.png",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Database Solutions",
-  //   description:
-  //     "Efficient and scalable database management for your data needs.",
-  //   icon: "/images/s5.png",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Real-Time Features",
-  //   description: "Add live chat, notifications, and real-time data updates.",
-  //   icon: "/images/s6.png",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Speed Optimization",
-  //   description: "Boost performance with faster load times and optimization.",
-  //   icon: "/images/s7.png",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Website Management",
-  //   description: "Easy content management systems with flexible controls.",
-  //   icon: "/images/s8.png",
-  // },
+  {
+    id: 4,
+    title: "User Interfaces",
+    description:
+      "Engaging, responsive front-end designs for better user experiences.",
+    icon: "/images/s4.png",
+  },
+  {
+    id: 5,
+    title: "Database Solutions",
+    description:
+      "Efficient and scalable database management for your data needs.",
+    icon: "/images/s5.png",
+  },
+  {
+    id: 6,
+    title: "Real-Time Features",
+    description: "Add live chat, notifications, and real-time data updates.",
+    icon: "/images/s6.png",
+  },
+  {
+    id: 7,
+    title: "Speed Optimization",
+    description: "Boost performance with faster load times and optimization.",
+    icon: "/images/s7.png",
+  },
+  {
+    id: 8,
+    title: "Website Management",
+    description: "Easy content management systems with flexible controls.",
+    icon: "/images/s8.png",
+  },
 ];
 
 export const projectData = [
@@ -87,31 +87,31 @@ export const projectData = [
     image: "/images/p3.png",
     url: "https://game-ecommerce-yt.vercel.app/",
   },
-  {
-    id: 4,
-    image: "/images/p4.png",
-    url: "https://elearning-yt.vercel.app/",
-  },
-  {
-    id: 5,
-    image: "/images/p5.png",
-    url: "https://invest-peach.vercel.app/",
-  },
-  {
-    id: 6,
-    image: "/images/p6.png",
-    url: "https://job-chi-ruby.vercel.app/",
-  },
-  {
-    id: 7,
-    image: "/images/p7.png",
-    url: "https://wdw-ecom.vercel.app/",
-  },
-  {
-    id: 8,
-    image: "/images/p8.png",
-    url: "https://webhost-ten.vercel.app/",
-  },
+  // {
+  //   id: 4,
+  //   image: "/images/p4.png",
+  //   url: "https://elearning-yt.vercel.app/",
+  // },
+  // {
+  //   id: 5,
+  //   image: "/images/p5.png",
+  //   url: "https://invest-peach.vercel.app/",
+  // },
+  // {
+  //   id: 6,
+  //   image: "/images/p6.png",
+  //   url: "https://job-chi-ruby.vercel.app/",
+  // },
+  // {
+  //   id: 7,
+  //   image: "/images/p7.png",
+  //   url: "https://wdw-ecom.vercel.app/",
+  // },
+  // {
+  //   id: 8,
+  //   image: "/images/p8.png",
+  //   url: "https://webhost-ten.vercel.app/",
+  // },
 ];
 
 export const skillsData = [
